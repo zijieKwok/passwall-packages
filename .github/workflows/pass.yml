@@ -30,7 +30,7 @@ jobs:
           keep_minimum_runs: 8
     
       - name: Remove old Releases
-        uses: dev-drprasad/delete-older-releases@master
+        uses: dev-drprasad/delete-older-releases@main
         with:
           keep_latest: 81
           delete_tags: true
